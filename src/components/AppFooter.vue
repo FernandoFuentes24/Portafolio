@@ -5,9 +5,12 @@
   </template>
 
   <style scoped>
+  p {
+    margin: 0.5rem;
+  }
   footer {
     background-color: #333;
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     position: fixed;
     bottom: 0;
