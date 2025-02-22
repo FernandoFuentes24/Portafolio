@@ -16,7 +16,7 @@
   height: 90vh;
   width: 100%;
   background-image: url('../assets/image/stars.svg');
-  background-color: black;
+  background-color: yellow;
 }
 
 .home h1 {
