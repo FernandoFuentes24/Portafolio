@@ -6,16 +6,20 @@
     
     <!--Logos-->
     <div class="logos">
+      <a href="https://www.linkedin.com/in/fernando-fuentes-901902215/" target="_blank">
       <img src="../assets/image/Linkedln.png" alt="Logo 1" class="logo">
+    </a>
+    <a href="https://github.com/FernandoFuentes24" target="_blank">
       <img src="../assets/image/Github.png" alt="Logo 2" class="logo">
+    </a>
     </div>
     
       <hr color="white" size="8" width="290"><br>
 
       <!--Botones-->
       <div class="buttons-container">
-      <button type="button" class="btn btn-secondary">Proyectos</button>
-      <button type="button" class="btn btn-secondary">Contacto</button>
+      <a class="btn btn-secondary" type="btn" href="proyectos">Proyectos</a>
+      <a class="btn btn-secondary" type="btn" href="contacto">Contactos</a>
   </div>
 </div>
 </template>
