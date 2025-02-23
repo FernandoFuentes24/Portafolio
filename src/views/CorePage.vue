@@ -54,7 +54,7 @@ export default {
   background-image: url('../assets/image/stars.svg'); /* Ruta de la imagen de fondo */
   background-color: black; /* Fondo negro como respaldo */
   background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-  background-position: center; /* Centra la imagen */
+  background-position: initial; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
   min-width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
