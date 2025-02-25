@@ -6,7 +6,7 @@
         <form>
           <div class="mb-3">
             <label class="form-label">Nombre</label>
-            <input type="text" class="form-control" placeholder="Fernando Jose Montes....">
+            <input type="text" class="form-control" placeholder="Nomnre Apellido">
           </div>
           <div class="mb-3">
             <label class="form-label">Email</label>
