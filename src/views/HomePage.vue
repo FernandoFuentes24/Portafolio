@@ -18,8 +18,8 @@
 
       <!--Botones-->
       <div class="buttons-container">
-      <a class="btn btn-secondary" type="btn" href="proyectos">Proyectos</a>
-      <a class="btn btn-secondary" type="btn" href="contacto">Contactos</a>
+        <router-link class="btn btn-secondary" to="/proyectos">Proyectos</router-link>
+        <router-link class="btn btn-secondary" to="/contacto">Contactos</router-link>
   </div>
 </div>
 </template>
