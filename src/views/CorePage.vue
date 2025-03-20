@@ -23,10 +23,10 @@ export default {
   data() {
     return {
       imagenes: [
-        { src: "/img/NetCore1.png", alt: "Imagen 1" },
-        { src: "/img/NetCore2.png", alt: "Imagen 2" },
-        { src: "/img/NetCore3.png", alt: "Imagen 3" },
-        { src: "/img/NetCore4.png", alt: "Imagen 4" }
+        { src: require('@/assets/image/NetCore1.png'), alt: "Imagen 1" },
+        { src: require('@/assets/image/NetCore2.png'), alt: "Imagen 2" },
+        { src: require('@/assets/image/NetCore3.png'), alt: "Imagen 3" },
+        { src: require('@/assets/image/NetCore4.png'), alt: "Imagen 4" }
       ],
       imagenSeleccionada: null
     };
