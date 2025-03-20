@@ -22,13 +22,11 @@
     data() {
       return {
         proyectos: [
-          { id: 1, nombre: "Plataforma de cursos", descripcion: "ASP.NETCORE| Bootstrap| MYSQL", imagen: "@/assets/image/NetCore1.png", ruta: "/NetCore" },
-          { id: 2, nombre: "Proyecto 2", descripcion: "Descripción breve.", imagen: "../assets/image/NetCore2.png" },
-          { id: 3, nombre: "Proyecto 3", descripcion: "Descripción breve.", imagen: "../assets/image/NetCore2.png" },
-          { id: 4, nombre: "Proyecto 4", descripcion: "Descripción breve.", imagen: "../assets/image/NetCore3.png" },
-          { id: 5, nombre: "Proyecto 5", descripcion: "Descripción breve.", imagen: "../assets/image/NetCore3.png" },
-          { id: 6, nombre: "Proyecto 5", descripcion: "Descripción breve.", imagen: "../assets/image/NetCore3.png" }
-          
+          { id: 1, nombre: "Plataforma de cursos", descripcion: "ASP.NETCORE| Bootstrap| MYSQL", imagen: require('@/assets/image/NetCore1.png'), ruta: "/NetCore" },
+          { id: 2, nombre: "Proyecto 2", descripcion: "Descripción breve.", imagen: require('@/assets/image/NetCore2.png') },
+          { id: 3, nombre: "Proyecto 3", descripcion: "Descripción breve.", imagen: require('@/assets/image/NetCore2.png') },
+          { id: 4, nombre: "Proyecto 4", descripcion: "Descripción breve.", imagen: require('@/assets/image/NetCore3.png') },
+          { id: 5, nombre: "Proyecto 5", descripcion: "Descripción breve.", imagen: require('@/assets/image/NetCore3.png') }
         ]
       };
     },
